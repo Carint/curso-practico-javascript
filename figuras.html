@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Figuras geométricas | Curso de Javascript</title>
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="figuras.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
@@ -54,6 +54,19 @@
                         <input id="inputBaseTriangulo" type="number">
                     </div>
                     <button class="section__form-button" type="button" onclick="calcularAreaTriangulo()">Área</button>
+                </form>
+            </section>
+            <!-- TRIANGULO ISOSCELES -->
+            <section class="section">
+                <h2 class="section__title">Triángulo isósceles</h2>
+                <form class="section__form">
+                    <label class="section__form-label" for="inputLado1TrianguloIso">¿Cuánto mide lado A, lado B y la base de tu triángulo?</label>
+                    <div class="section__form-listInput">
+                        <input id="inputLado1TrianguloIso" type="number">
+                        <input id="inputLado2TrianguloIso" type="number">
+                        <input id="baseTrianguloIso" type="number">
+                    </div>
+                    <button class="section__form-button" type="button" onclick="calcularAlturaTrianguloIso()">Altura</button>
                 </form>
             </section>
             <!-- CIRCULO -->

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: blueviolet;
+    padding: 20px;
+    color: #fff;
+}
+
+.section {
+    padding: 20px;
+}
+
+.section .section__title {
+    margin: 15px 0;
+}
+
+.section__form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px 0 20px 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.row .input-number, .input-text {
+    height: 35px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+.row .input-number {
+    width: 120px;
+}
+
+.section__form-button {
+    margin: 10px 0 10px auto;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    height: 45px;
+    width: 200px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#resultPrice {
+    margin: 10px 0 10px auto;
+}
+
